@@ -1,17 +1,74 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const App = (props) => {
+  return (
+      <div className='frame22'>
+        <span id = "cloud-circle1"
+        />
+        <span className='text'>
+          <span>
+            <span> <a href = "https://www.linkedin.com/in/meghadnayar/"> Linkedin </a></span>
+            <br></br>
+            <span></span>
+            <br></br>
+            <span><a href="https://github.com/nayarmegha"> GitHub </a></span>
+            <br></br>
+            <span></span>
+            <br></br>
+            <span></span>
+            <br></br>
+            <span></span>
+          </span>
+        </span>
+        <span className='text13'>
+          <span className='text14'>
+            <span>
+              I’m a student programmer and designer based in Chicago.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br></br>
+            <span>
+              Check out some of my
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+          </span>
+          <span className='text18'><a href = "https://github.com/nayarmegha">projects here</a></span>
+          <span className='text19'>.</span>
+          <span className='text20'>
+            {' '}
+            If you have any questions or would like to contact me,
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <span className='text21'> <a href = "mailto: meghadnay08@gmail.com" > hit me up here. </a></span>
+        </span>
+        <span id = "cloud-circle"
+        />
+        <span className='text22'>
+          <span> <a href="https://github.com/nayarmegha"> Projects </a></span> <span> &nbsp;&nbsp;&nbsp;&nbsp; </span> <span> <a href = "mailto: meghadnay08@gmail.com" > Contact </a></span>
+        </span>
+        <span className='text24'>
+          <span>
+            <span>Hello,</span>
+            <br></br>
+            <span>I’m Megha.</span>
+          </span>
+        </span>
+      </div>
+  )
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<App />, document.getElementById('root'))

@@ -1,13 +1,160 @@
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.frame22 {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 1440px;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 0px 0px 0px 0px;
+  background-color: rgba(177, 235, 243, 1);
+  padding: 20px 0px 0px 50px;
+  box-sizing: border-box;
 }
+
+.text {
+  top: 818px;
+  left: 117px;
+  color: rgba(19, 25, 47, 1);
+  width: 223px;
+  height: auto;
+  position: absolute;
+  font-size: 19px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text13 {
+  top: 538px;
+  left: 331px;
+  color: rgba(19, 25, 47, 1);
+  width: 928px;
+  height: auto;
+  position: absolute;
+  font-size: 19px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text14 {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: NONE;
+}
+.text18 {
+  font-size: 18px;
+  text-decoration: UNDERLINE;
+}
+.text19 {
+  font-weight: 700;
+}
+.text20 {
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: NONE;
+}
+.text21 {
+  font-size: 18px;
+  text-decoration: UNDERLINE;
+}
+
+.text22 {
+  top: 69px;
+  left: 117px;
+  color: rgba(19, 25, 47, 1);
+  width: 867px;
+  height: auto;
+  position: absolute;
+  font-size: 19px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text24 {
+  font-family: "Open Sans";
+  top: 257px;
+  left: 117px;
+  color: rgba(19, 25, 47, 1);
+  width: 843px;
+  height: auto;
+  position: absolute;
+  font-size: 60px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+#cloud-circle1 {
+  width: 800px;
+  height: px;
+  background: #000;
+  border-radius: 90%;
+  filter: url(#filter);
+  box-shadow: 60px 0px 400px 400px rgb(255, 255, 255, 0.5); /* Increase shadow offset */
+  position: absolute; /* Take the parent out of the document flow */
+  top: 900px; /* Move a little down */
+  left: 520px; /* Move a little right */
+  
+}
+#cloud-circle {
+  width: 800px;
+  height: 500px;
+  background: #000;
+  border-radius: 90%;
+  filter: url(#filter);
+  box-shadow: 400px 400px 60px 0px rgb(255, 255, 255, 0.5); /* Increase shadow offset */
+  position: absolute; /* Take the parent out of the document flow */
+  top: -500px; /* Move a little down */
+  left: -520px; /* Move a little right */
+}
+
+a {
+  top: 69px;
+  left: 117px;
+  color: rgba(19, 25, 47, 1);
+  width: 867px;
+  font-size: 19px;
+  align-self: auto;
+  text-align: left;
+  font-family: Open Sans;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
