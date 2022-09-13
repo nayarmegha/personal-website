@@ -11,49 +11,18 @@ const App = (props) => {
           <span>
             <span> <a href = "https://www.linkedin.com/in/meghadnayar/"> Linkedin </a></span>
             <br></br>
-            <span></span>
             <br></br>
-            <span><a href="https://github.com/nayarmegha"> GitHub </a></span>
-            <br></br>
-            <span></span>
-            <br></br>
-            <span></span>
-            <br></br>
-            <span></span>
+            <span><a href="https://github.com/nayarmegha"> GitHub </a></span> 
           </span>
         </span>
-        <span className='intro2'>
-          <span className='intro'>
-            <span>
-              I’m a student programmer and designer based in Chicago.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <br></br>
-            <span>
-              Check out some of my
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
+        <span className='about'>
+            I’m a student programmer and designer based in Chicago. <br></br>
+            Check out some of my&nbsp;
+          <span className='aboutlinks'><a href = "https://github.com/nayarmegha">projects here</a></span>
+          <span className='about2'>
+            .&nbsp;If you have any questions or would like to contact me,
           </span>
-          <span className='text18'><a href = "https://github.com/nayarmegha">projects here</a></span>
-          <span className='text19'>.</span>
-          <span className='text20'>
-            {' '}
-            If you have any questions or would like to contact me,
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
-          <span className='text21'> <a href = "mailto: meghadnay08@gmail.com" > hit me up here. </a></span>
+          <span className='aboutlinks'> <a href = "mailto: meghadnay08@gmail.com" > hit me up here. </a></span>
         </span>
         <span id = "cloud-circle"
         />

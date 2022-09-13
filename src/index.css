@@ -3,13 +3,13 @@ body {
   margin: 0px;
 }
 
+
 .frame22 {
   width: 100%;
   height: 1024px;
   display: flex;
   overflow: hidden;
   position: relative;
-  max-width: 1440px;
   flex-shrink: 0;
   border-color: transparent;
   border-radius: 0px 0px 0px 0px;
@@ -29,7 +29,7 @@ body {
   align-self: auto;
   font-style: Bold;
   text-align: left;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -37,18 +37,19 @@ body {
   margin-bottom: 0;
   text-decoration: none;
 }
-.intro2 {
+.about {
   top: 538px;
-  left: 331px;
+  left: 25%;
   color: rgba(19, 25, 47, 1);
-  width: 928px;
+  width: 75%;
+  max-width: 800px;
   height: auto;
   position: absolute;
   font-size: 19px;
   align-self: auto;
   font-style: SemiBold;
   text-align: left;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 600;
   line-height: normal;
   font-stretch: normal;
@@ -56,27 +57,18 @@ body {
   margin-bottom: 0;
   text-decoration: none;
 }
-.intro {
+
+.aboutlinks {
   font-family: "Open Sans";
+  font-size: 19px;
+  text-decoration: underline;
+}
+
+.about2 {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 19px;
   text-decoration: NONE;
-}
-.text18 {
-  font-size: 18px;
-  text-decoration: UNDERLINE;
-}
-.text19 {
-  font-weight: 700;
-}
-.text20 {
-  font-weight: 600;
-  font-size: 18px;
-  text-decoration: NONE;
-}
-.text21 {
-  font-size: 18px;
-  text-decoration: UNDERLINE;
+  font-family: "Open Sans";
 }
 
 .projects {
@@ -90,13 +82,13 @@ body {
   align-self: auto;
   font-style: Bold;
   text-align: left;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   margin-right: 0;
   margin-bottom: 0;
-  text-decoration: none;
+  text-decoration: none; 
 }
 .hello {
   font-family: "Open Sans";
@@ -147,22 +139,65 @@ a {
   left: 117px;
   color: rgba(19, 25, 47, 1);
   width: 867px;
-  font-size: 19px;
+  font-size: 18px;
   align-self: auto;
   text-align: left;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   line-height: normal;
   font-stretch: normal;
   margin-right: 0;
   margin-bottom: 0;
   text-decoration: none;
 }
+/*iphone12pro*/
+@media (max-width: 575px) { 
+  .hello{
+    width: 70%;
+    font-size: 45px;
+    top: 150px;
+    left: 47px;
+    font-family: "Open Sans";
 
-@media screen and (max-width: 575)
-{
+  }
+
   .projects{
-    width: 40%;
-    color:red;;
-    font-size: 19px;
+    width: 50%;
+    font-size: 15px;
+    top: 30px;
+    left: 47px;
+    font-family: "Open Sans";
+
+  }
+  .about{
+    width: 70%;
+    font-size: 16px;
+    top: 400px;
+    left: 47px;
+    font-family: "Open Sans";
+  }
+  .about2{
+    width: 70%;
+    font-size: 16px;
+    top: 400px;
+    left: 47px;
+    font-family: "Open Sans";
+  }x
+  .aboutlinks{
+    width: 70%;
+    top: 400px;
+    left: 47px; 
+    text-decoration: underline;
+    font-family: "Open Sans";
+  
+  }
+
+  .text{
+    width: 50%;
+    top: 700px;
+    left: 47px;
+    font-family: "Open Sans";
+  }
+  a{
+    font-size: 16px;
   }
 }
