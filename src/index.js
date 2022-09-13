@@ -22,8 +22,8 @@ const App = (props) => {
             <span></span>
           </span>
         </span>
-        <span className='text13'>
-          <span className='text14'>
+        <span className='intro2'>
+          <span className='intro'>
             <span>
               I’m a student programmer and designer based in Chicago.
               <span
@@ -57,10 +57,10 @@ const App = (props) => {
         </span>
         <span id = "cloud-circle"
         />
-        <span className='text22'>
+        <span className='projects'>
           <span> <a href="https://github.com/nayarmegha"> Projects </a></span> <span> &nbsp;&nbsp;&nbsp;&nbsp; </span> <span> <a href = "mailto: meghadnay08@gmail.com" > Contact </a></span>
         </span>
-        <span className='text24'>
+        <span className='hello'>
           <span>
             <span>Hello,</span>
             <br></br>
