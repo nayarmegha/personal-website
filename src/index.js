@@ -15,7 +15,7 @@ const App = (props) => {
         <span className='about'>
             I’m a student programmer and designer based in Chicago. <br></br>
             Currently, I'm building a <span className='aboutlinks'><a href="https://incandescent-gingersnap-9afa2e.netlify.app/index.html"> gamified Python tutorial</a></span>, with an intention to make Python feel more accesible for beginners to the language. 
-            <br></br>
+            <br></br><br></br>
             Check out some of my other<span className='aboutlinks'><a href = "https://github.com/nayarmegha"> projects here.</a></span>
           <span className='about2'> If you have any questions or would like to contact me,
           </span>

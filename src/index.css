@@ -45,12 +45,12 @@ body {
   max-width: 800px;
   height: auto;
   position: absolute;
-  font-size: 19px;
+  font-size: 17px;
   align-self: auto;
   font-style: SemiBold;
   text-align: left;
   font-family: "Open Sans";
-  font-weight: 600;
+  font-weight: normal;
   line-height: normal;
   font-stretch: normal;
   margin-right: 0;
@@ -60,13 +60,13 @@ body {
 
 .aboutlinks {
   font-family: "Open Sans";
-  font-size: 19px;
+  font-size: 17px;
   text-decoration: underline;
 }
 
 .about2 {
-  font-weight: 600;
-  font-size: 19px;
+  font-weight: normal;
+  font-size: 17px;
   text-decoration: NONE;
   font-family: "Open Sans";
 }
@@ -98,7 +98,7 @@ body {
   width: 843px;
   height: auto;
   position: absolute;
-  font-size: 60px;
+  font-size: 54px;
   align-self: auto;
   font-style: Bold;
   text-align: left;
@@ -139,7 +139,7 @@ a {
   left: 117px;
   color: rgba(19, 25, 47, 1);
   width: 867px;
-  font-size: 18px;
+  font-size: 17px;
   align-self: auto;
   text-align: left;
   font-family: "Open Sans";
